@@ -1,8 +1,10 @@
-import { ChakraProvider, CSSReset } from "@chakra-ui/react";
+import { ChakraProvider, CSSReset, extendTheme } from "@chakra-ui/react";
 
 function MyApp({ Component, pageProps }) {
+  const theme = extendTheme({ irection: "rtl" });
+
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <CSSReset />
       <Component {...pageProps} />
     </ChakraProvider>
