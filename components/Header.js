@@ -14,6 +14,9 @@ function Header() {
         justifyContent={"space-between"}
         alignItems={"center"}
         wrap={displayIcon === "none" ? "nowrap" : "wrap"}
+        p={"0.5rem 1rem"}
+        bg={"white"}
+        boxShadow={"0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%)"}
       >
         <Image
           src="/img/logo.png"
