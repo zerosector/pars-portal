@@ -3,7 +3,7 @@ import TitleIconLink from "./TitleIconLink";
 
 function Header() {
   return (
-    <header>
+    <header style={{ zIndex: "100" }}>
       <Flex
         justifyContent={"space-between"}
         alignItems={"center"}
