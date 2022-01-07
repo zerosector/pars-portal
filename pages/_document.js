@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html lang="fa" dir="rtl">
         <Head />
-        <body>
+        <body style={{ backgroundColor: "rgb(248,248,248)" }}>
           <Main />
           <NextScript />
         </body>
