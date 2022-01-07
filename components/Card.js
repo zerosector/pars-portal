@@ -6,7 +6,7 @@ function Card({ card: { caption, iconName } }) {
       border={"1px solid rgba(6,30,45,.29)"}
       borderRadius={"12px"}
       boxShadow={"0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%)"}
-      bg={"gray.50"}
+      bg={"white"}
       _hover={{
         border: "1px solid rgb(3, 193, 207)",
         boxShadow: "0 1px 10px 0 rgba(3,193,207,.52)",

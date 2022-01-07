@@ -14,8 +14,7 @@ function Layout(props) {
         direction="column"
         align="center"
         alignItems={"stretch"}
-        // maxW={{ xl: "80%" }}
-        bg={"gray.100"}
+        bg={"rgb(248,248,248)"}
         m="0 auto"
         {...props}
         h={"100vh"}
