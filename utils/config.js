@@ -25,8 +25,16 @@ const config = {
       iconName: "user",
     },
     {
+      caption: "سامانه گاما",
+      iconName: "tool",
+    },
+    {
       caption: "سامانه ptime",
-      iconName: "user",
+      iconName: "clock",
+    },
+    {
+      caption: "سامانه گاما",
+      iconName: "todo-list",
     },
     {
       caption: "سامانه گاما",
@@ -34,20 +42,11 @@ const config = {
     },
     {
       caption: "سامانه گاما",
-      iconName: "user",
+      iconName: "money-check",
     },
     {
       caption: "سامانه گاما",
-      iconName: "user",
-    },
-    {
-      caption: "سامانه گاما",
-      iconName: "user",
-    },
-    {
-      caption: "سامانه گاما",
-      iconName: "user",
-      display: "hidden",
+      iconName: "online-shopping",
     },
   ],
 };
