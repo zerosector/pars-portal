@@ -1,4 +1,4 @@
-import { Box, Square } from "@chakra-ui/react";
+import { Box, Square, Text } from "@chakra-ui/react";
 import { useRef } from "react";
 
 function Card({ card: { caption, iconName } }) {
@@ -33,7 +33,7 @@ function Card({ card: { caption, iconName } }) {
             ref={lordE}
           />
         </Box>
-        <p>{caption}</p>
+        <Text fontSize={"md"}>{caption}</Text>
       </Square>
     </div>
   );

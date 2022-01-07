@@ -55,8 +55,14 @@ const cards = [
 
 function AppMain() {
   return (
-    <Flex direction={"column"} padding={"1rem"} alignItems={"center"}>
-      <Heading>{"خدمات شرکت"}</Heading>
+    <Flex
+      direction={"column"}
+      padding={{ base: "1rem", md: "1rem 2rem", xl: "1rem 10%" }}
+      alignItems={"center"}
+    >
+      <Heading fontSize={"xl"} alignSelf={"stretch"} padding={"1rem 0 0.5rem"}>
+        {"خدمات شرکت"}
+      </Heading>
       <CardList cards={cards} />
     </Flex>
   );

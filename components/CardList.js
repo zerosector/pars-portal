@@ -3,12 +3,7 @@ import Card from "./Card";
 
 function CardList({ cards }) {
   return (
-    <Flex
-      flexWrap={"wrap"}
-      justifyContent={"center"}
-      alignItems={"center"}
-      padding={{ base: "0", md: "1rem 2rem", xl: "1rem 10%" }}
-    >
+    <Flex flexWrap={"wrap"} justifyContent={"center"} alignItems={"center"}>
       {cards.map((card, index) => (
         <Box
           key={index}
