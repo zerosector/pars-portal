@@ -4,23 +4,23 @@ import CardList from "./CardList";
 const cards = [
   {
     caption: "سامانه گاما",
-    iconName: "user",
+    iconName: "todo-list",
   },
   {
     caption: "سامانه ptime",
-    iconName: "user",
+    iconName: "clock",
   },
   {
     caption: "سامانه گاما",
-    iconName: "user",
+    iconName: "tool",
   },
   {
     caption: "سامانه گاما",
-    iconName: "user",
+    iconName: "online-shopping",
   },
   {
     caption: "سامانه گاما",
-    iconName: "user",
+    iconName: "money-check",
   },
   {
     caption: "سامانه گاما",
