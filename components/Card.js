@@ -8,7 +8,7 @@ function Card({ card: { caption, iconName } }) {
     lordE.current.dispatchEvent(mouseEnterEvent);
   };
   return (
-    <div onMouseEnter={handleMouseEvent}>
+    <a onMouseEnter={handleMouseEvent} href={"/"}>
       <Square
         border={"1px solid rgba(6,30,45,.29)"}
         borderRadius={"12px"}
@@ -35,7 +35,7 @@ function Card({ card: { caption, iconName } }) {
         </Box>
         <Text fontSize={"md"}>{caption}</Text>
       </Square>
-    </div>
+    </a>
   );
 }
 

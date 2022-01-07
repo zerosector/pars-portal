@@ -8,7 +8,7 @@ function SideMenuItem({ caption, iconName }) {
     lordE.current.dispatchEvent(mouseEnterEvent);
   };
   return (
-    <div onMouseEnter={handleMouseEvent}>
+    <a onMouseEnter={handleMouseEvent} href={"/"}>
       <Square
         bg={"white"}
         _hover={{
@@ -29,7 +29,7 @@ function SideMenuItem({ caption, iconName }) {
         </Box>
         <Text fontSize={"md"}>{caption}</Text>
       </Square>
-    </div>
+    </a>
   );
 }
 
