@@ -1,23 +1,9 @@
-import {
-  ChakraProvider,
-  CSSReset,
-  extendTheme,
-  LightMode,
-} from "@chakra-ui/react";
+import { ChakraProvider, CSSReset, LightMode } from "@chakra-ui/react";
 import Layout from "../components/Layout";
 import Fonts from "../components/Fonts";
+import theme from "../theme/theme";
 
 function MyApp({ Component, pageProps }) {
-  const theme = extendTheme({
-    direction: "rtl",
-    fonts: {
-      heading: "YekanBakh",
-      body: "YekanBakh",
-    },
-    initialColorMode: "light",
-    useSystemColorMode: false,
-  });
-
   return (
     <ChakraProvider theme={theme}>
       <LightMode>
